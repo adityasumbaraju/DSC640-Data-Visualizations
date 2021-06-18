@@ -1,0 +1,115 @@
+---
+title: "DSC640_ASumbaraju_Wk1_2_Charts"
+author: "SumbarajuAditya"
+date: "6/18/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Read data from csv file
+
+```{r}
+
+hotdog <- read.csv('C:/BU/DSC640/ex1-2/hotdog-places.csv', header = TRUE)
+
+
+head(hotdog)
+```
+
+# Data preperation
+
+```{r}
+library(tidyr)
+
+hotdog_df <- gather(hotdog, year, quantity, X2000:X2010)
+
+hotdog_df$year <- gsub("[a-zA-Z ]", "", hotdog_df$year)
+hotdog_df$year <- as.factor(hotdog_df$year)
+hotdog_df$quantity <- as.numeric(hotdog_df$quantity)
+
+hotdog_df
+```
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(reshape)
+
+##barplot
+hotdog_by_year <- hotdog_df%>% group_by(year) %>% mutate(total = sum(quantity, year))
+
+
+
+ggplot(hotdog_by_year, aes(x=year, y=total)) +
+  geom_bar(stat = 'identity', fill="dark GREEN") +
+  labs(title = 'Hot Dogs - Year based consumption Chart', ylab('Count')) +
+  theme(axis.title.x = element_blank())
+```
+## Stacked chart
+
+```{r}
+hotdog_Location_year <- hotdog_df %>% group_by(year) %>% mutate(pct= quantity / sum(quantity))
+
+ggplot(hotdog_Location_year, aes(fill=LOCATION, x=year, y=quantity)) +
+  geom_bar(position="stack", stat = 'identity') +
+  geom_text(aes(label = scales::percent(pct)), position = position_stack(vjust= .5), color="white") +
+  labs(title = 'Hot Dogs - Location based consumption stacked Chart per year', ylab('Count')) +
+  theme(axis.title.x = element_blank())
+```
+## piechart
+
+```{r}
+library(plotrix)
+#Pie Chart
+#Distribution of first second and third place hotdogs consumed
+hotdog_Location <- hotdog_df %>% group_by(LOCATION) %>% summarise(total = sum(quantity)) 
+
+hotdog_Location$total <- as.integer(hotdog_Location$total)
+
+
+slices <- hotdog_Location$total
+labels <- paste0(hotdog_Location$LOCATION, " \n ", hotdog_Location$total, ' Hot Dogs')
+
+
+
+pie3D(slices, main="Hot Dogs Pie chart - % of Hotdogs consumed per Location", labels = labels,explode=0.1)
+
+
+
+```
+## donut chart
+
+```{r}
+
+# Compute percentages
+hotdog_Location$fraction = hotdog_Location$total / sum(hotdog_Location$total)
+
+# Compute the cumulative percentages (top of each rectangle)
+hotdog_Location$ymax = cumsum(hotdog_Location$fraction)
+
+# Compute the bottom of each rectangle
+hotdog_Location$ymin = c(0, head(hotdog_Location$ymax, n=-1))
+
+# Compute label position
+hotdog_Location$labelPosition <- (hotdog_Location$ymax + hotdog_Location$ymin) / 2
+
+# Compute a good label
+hotdog_Location$label <- paste0(hotdog_Location$LOCATION, " \n ", hotdog_Location$total, ' Hot Dogs')
+
+# Make the plot
+ggplot(hotdog_Location, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=LOCATION)) +
+  geom_rect() +
+  geom_label(x=2, aes(y=labelPosition, label=label), size=4, color='white') +
+  coord_polar(theta="y") +  xlim(c(-1, 4)) + # without this parameter it looks like a pie chart
+  labs(title='Distribution of Hot Dogs Consumed by Place') +
+  theme_void() + 
+  theme(legend.position = "none", plot.title = element_text(hjust = 0.5))
+
+```
+
+
+
