@@ -681,7 +681,7 @@
     </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Bar Chart'>
+    <window class='worksheet' maximized='true' name='Bar Chart'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -784,7 +784,7 @@
       </viewpoint>
       <simple-id uuid='{63DA220A-CFD3-4DEB-8575-0A5143BFAEA1}' />
     </window>
-    <window class='worksheet' maximized='true' name='Donut Chart'>
+    <window class='worksheet' name='Donut Chart'>
       <cards>
         <edge name='left'>
           <strip size='160'>
