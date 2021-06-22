@@ -1,0 +1,80 @@
+---
+title: "DSC640_ASmbaraju_wk3_4_Charts"
+author: "SumbarajuAditya"
+date: "6/22/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# import libraries
+```{r}
+
+library(ggplot2)
+library(reshape2)
+library("dplyr") 
+library(numbers)
+library("treemap")
+
+
+```
+
+
+# loading expenditure file
+```{r}
+
+expenditures <- read.table(file = "C:/BU/DSC640/ex2-2/expenditures.txt", header = TRUE, sep = '\t', dec = '.', fill = TRUE)
+
+head(expenditures)
+```
+
+## Tree maps
+
+```{r}
+treemap::treemap(expenditures,index = c('category'),
+                 vSize = 'expenditure',
+                 title = 'Expenditure by Category')
+
+```
+
+# Stacked Area Chart
+
+```{r}
+
+# Stacked area charts
+Stack_Area_Plt <- ggplot(expenditures, aes(x=year, y=expenditure, fill=category)) +
+  geom_area() +
+  ggtitle('Expenditures for each category by Year')
+Stack_Area_Plt
+
+```
+# Area Chart
+
+```{r}
+library(plyr)
+mean_value <- ddply(expenditures, "year", summarise, expenditure_mean=mean(expenditure))
+head(mean_value)
+Area_Plt <-ggplot(mean_value, aes(x=year, y=expenditure_mean)) +
+  geom_area(fill = "red",color="black") +
+  ggtitle('Area charts - Total Expenditure by year')
+Area_Plt
+```
+# step chart
+
+```{r}
+Step_Plt <-ggplot(mean_value, aes(x=year, y=expenditure_mean)) +
+  geom_step(color="Red") +
+  ggtitle('Step charts - Total Expenditure by year')
+Step_Plt
+
+```
+# Line Chart
+```{r}
+line_Plt <-ggplot(mean_value, aes(x=year, y=expenditure_mean)) +
+  geom_line(color="Red") +
+  ggtitle('Line chart - Total Expenditure by year')
+line_Plt
+
+```
