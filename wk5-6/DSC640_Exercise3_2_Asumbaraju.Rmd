@@ -68,7 +68,7 @@ ggplot(crime_data, aes(x=burglary, y=motor_vehicle_theft, size = motor_vehicle_t
 
 
 
-#  Density plot charts
+#  Density plot
 
 
 ```{r, fig.width=15, fig.height=6}
