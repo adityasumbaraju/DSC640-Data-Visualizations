@@ -1,0 +1,92 @@
+---
+title: "DSC640_Exercise3_2_Asumbaraju"
+author: "SumbarajuAditya"
+date: "7/9/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# import libraries
+
+```{r}
+library(ggplot2)
+
+```
+
+
+# Data loading  and Cleansing csv file
+
+```{r}
+crime_data <- read.csv("C:/BU/DSC640/wk5-6/ex4-2/crimerates-by-state-2005.csv")
+# Data cleansing step -  drop "United states" record from data frame
+crime_data <- crime_data[-c(1),] 
+head(crime_data,5)
+
+```
+
+# Scatterplot
+
+```{r, fig.width=15, fig.height=6}
+
+P1 <- ggplot(crime_data, aes(x=state, y=larceny_theft)) +  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90,hjust=0.10,vjust=0.22)) +
+  theme(
+    plot.title = element_text(color="purple", size=18, face="bold"),
+    axis.title.x = element_text(color="black", size=14, face="bold"),
+    axis.title.y = element_text(color="black", size=14, face="bold")
+  ) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggtitle("larceny theft Rate by State") +
+  xlab("State") + 
+  ylab("larceny theft Rate")  +
+  geom_point(color='coral',size = 4) 
+P1
+
+```
+
+#  bubble chart
+
+```{r, fig.width=15, fig.height=6}
+
+ggplot(crime_data, aes(x=burglary, y=motor_vehicle_theft, size = motor_vehicle_theft,color= state)) + theme_bw()+
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme(
+    plot.title = element_text(color="purple", size=18, face="bold"),
+    axis.title.x = element_text(color="black", size=14, face="bold"),
+    axis.title.y = element_text(color="black", size=14, face="bold")
+  ) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Mortor Vehicle Theft vs burglary w.r.t state") +
+  xlab("burglary") + 
+  ylab("Mortor Vehicle Theft Rate") +
+  geom_point(alpha=10)
+```
+
+
+
+
+#  Density plot charts
+
+
+```{r, fig.width=15, fig.height=6}
+
+ggplot(data=crime_data, aes(x=aggravated_assault)) + theme_bw()+
+
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme(
+    plot.title = element_text(color="purple", size=18, face="bold"),
+    axis.title.x = element_text(color="black", size=14, face="bold"),
+    axis.title.y = element_text(color="black", size=14, face="bold")
+  ) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Aggravated Assault Rate Density Plot") +
+  xlab("Aggravated Assault Rate") + 
+  ylab("Density") +
+  geom_density(alpha=10)
+
+```
+
+
