@@ -1,0 +1,820 @@
+,month,carrier_id,carrier_name,total_fuel_cost,year
+399,1,AA,American Airlines Inc.,458806189.0,2010
+400,1,AS,Alaska Airlines Inc.,52610271.0,2010
+401,1,B6,JetBlue Airways,86281447.0,2010
+402,1,DL,Delta Air Lines Inc.,513535743.0,2010
+403,1,NK,Spirit Air Lines,21040000.0,2010
+404,1,UA,United Air Lines Inc.,320169235.0,2010
+405,1,WN,Southwest Airlines Co.,264484955.0,2010
+406,2,AA,American Airlines Inc.,388449715.0,2010
+407,2,AS,Alaska Airlines Inc.,45056149.0,2010
+408,2,B6,JetBlue Airways,76004760.0,2010
+409,2,DL,Delta Air Lines Inc.,478692610.0,2010
+410,2,NK,Spirit Air Lines,13573000.0,2010
+411,2,UA,United Air Lines Inc.,278634843.0,2010
+412,2,WN,Southwest Airlines Co.,233029287.0,2010
+413,3,AA,American Airlines Inc.,454712175.0,2010
+414,3,AS,Alaska Airlines Inc.,54455508.0,2010
+415,3,B6,JetBlue Airways,92207399.0,2010
+416,3,DL,Delta Air Lines Inc.,556132875.0,2010
+417,3,NK,Spirit Air Lines,19243000.0,2010
+418,3,UA,United Air Lines Inc.,339915313.0,2010
+419,3,WN,Southwest Airlines Co.,285526589.0,2010
+420,4,AA,American Airlines Inc.,462016857.0,2010
+421,4,AS,Alaska Airlines Inc.,55913945.0,2010
+422,4,B6,JetBlue Airways,93652022.0,2010
+423,4,DL,Delta Air Lines Inc.,549864600.0,2010
+424,4,NK,Spirit Air Lines,19642000.0,2010
+425,4,UA,United Air Lines Inc.,348193934.0,2010
+426,4,WN,Southwest Airlines Co.,286864925.0,2010
+427,5,AA,American Airlines Inc.,503434531.0,2010
+428,5,AS,Alaska Airlines Inc.,59182817.0,2010
+429,5,B6,JetBlue Airways,93445073.0,2010
+430,5,DL,Delta Air Lines Inc.,610697526.0,2010
+431,5,NK,Spirit Air Lines,24747000.0,2010
+432,5,UA,United Air Lines Inc.,385441906.0,2010
+433,5,WN,Southwest Airlines Co.,311639909.0,2010
+434,6,AA,American Airlines Inc.,468758063.0,2010
+435,6,AS,Alaska Airlines Inc.,60489573.0,2010
+436,6,B6,JetBlue Airways,91767195.0,2010
+437,6,DL,Delta Air Lines Inc.,649214171.0,2010
+438,6,NK,Spirit Air Lines,16306000.0,2010
+439,6,UA,United Air Lines Inc.,372662209.0,2010
+440,6,WN,Southwest Airlines Co.,294844928.0,2010
+441,7,AA,American Airlines Inc.,485638361.0,2010
+442,7,AS,Alaska Airlines Inc.,64630064.0,2010
+443,7,B6,JetBlue Airways,101498319.0,2010
+444,7,DL,Delta Air Lines Inc.,688747618.0,2010
+445,7,NK,Spirit Air Lines,21761000.0,2010
+446,7,UA,United Air Lines Inc.,388623357.0,2010
+447,7,WN,Southwest Airlines Co.,302869939.0,2010
+449,8,AA,American Airlines Inc.,470271142.0,2010
+448,8,AS,Alaska Airlines Inc.,64452107.0,2010
+451,8,B6,JetBlue Airways,103016460.0,2010
+450,8,DL,Delta Air Lines Inc.,674897475.0,2010
+453,8,NK,Spirit Air Lines,25601000.0,2010
+454,8,UA,United Air Lines Inc.,384787525.0,2010
+452,8,WN,Southwest Airlines Co.,302773274.0,2010
+456,9,AA,American Airlines Inc.,430701582.0,2010
+455,9,AS,Alaska Airlines Inc.,56800700.0,2010
+458,9,B6,JetBlue Airways,87652760.0,2010
+457,9,DL,Delta Air Lines Inc.,594968770.0,2010
+460,9,NK,Spirit Air Lines,16203000.0,2010
+461,9,UA,United Air Lines Inc.,357424125.0,2010
+459,9,WN,Southwest Airlines Co.,278859942.0,2010
+462,10,AA,American Airlines Inc.,473657488.0,2010
+463,10,AS,Alaska Airlines Inc.,62512187.0,2010
+464,10,B6,JetBlue Airways,93931932.0,2010
+465,10,DL,Delta Air Lines Inc.,631484107.0,2010
+466,10,NK,Spirit Air Lines,23296000.0,2010
+467,10,UA,United Air Lines Inc.,377703658.0,2010
+468,10,WN,Southwest Airlines Co.,295283891.0,2010
+469,11,AA,American Airlines Inc.,462522696.0,2010
+470,11,AS,Alaska Airlines Inc.,64460014.0,2010
+471,11,B6,JetBlue Airways,94965531.0,2010
+472,11,DL,Delta Air Lines Inc.,599261038.0,2010
+473,11,NK,Spirit Air Lines,23004143.0,2010
+474,11,UA,United Air Lines Inc.,361188294.0,2010
+475,11,WN,Southwest Airlines Co.,291039058.0,2010
+476,12,AA,American Airlines Inc.,494827942.0,2010
+477,12,AS,Alaska Airlines Inc.,70859409.0,2010
+478,12,B6,JetBlue Airways,100954658.0,2010
+479,12,DL,Delta Air Lines Inc.,631603957.0,2010
+480,12,NK,Spirit Air Lines,23746804.0,2010
+481,12,UA,United Air Lines Inc.,392370747.0,2010
+482,12,WN,Southwest Airlines Co.,313949487.0,2010
+651,1,AA,American Airlines Inc.,635437258.0,2011
+652,1,AS,Alaska Airlines Inc.,109201594.0,2011
+653,1,B6,JetBlue Airways,155594506.0,2011
+654,1,DL,Delta Air Lines Inc.,759670066.0,2011
+655,1,NK,Spirit Air Lines,41991357.0,2011
+656,1,UA,United Air Lines Inc.,789358416.0,2011
+657,1,WN,Southwest Airlines Co.,445780850.0,2011
+658,2,AA,American Airlines Inc.,590299651.0,2011
+659,2,AS,Alaska Airlines Inc.,104312659.0,2011
+660,2,B6,JetBlue Airways,144927525.0,2011
+661,2,DL,Delta Air Lines Inc.,699449638.0,2011
+662,2,NK,Spirit Air Lines,41563525.0,2011
+663,2,UA,United Air Lines Inc.,737774963.0,2011
+664,2,WN,Southwest Airlines Co.,441687164.0,2011
+665,3,AA,American Airlines Inc.,654172333.0,2011
+666,3,AS,Alaska Airlines Inc.,115780346.0,2011
+667,3,B6,JetBlue Airways,166876356.0,2011
+668,3,DL,Delta Air Lines Inc.,853995528.0,2011
+669,3,NK,Spirit Air Lines,48110328.0,2011
+670,3,UA,United Air Lines Inc.,854589487.0,2011
+671,3,WN,Southwest Airlines Co.,517957173.0,2011
+672,4,AA,American Airlines Inc.,617258502.0,2011
+673,4,AS,Alaska Airlines Inc.,107406085.0,2011
+674,4,B6,JetBlue Airways,158421650.0,2011
+675,4,DL,Delta Air Lines Inc.,801966528.0,2011
+676,4,NK,Spirit Air Lines,46361748.0,2011
+677,4,UA,United Air Lines Inc.,787152648.0,2011
+678,4,WN,Southwest Airlines Co.,464101809.0,2011
+679,5,AA,American Airlines Inc.,601287642.0,2011
+680,5,AS,Alaska Airlines Inc.,103480772.0,2011
+681,5,B6,JetBlue Airways,149271138.0,2011
+682,5,DL,Delta Air Lines Inc.,792397737.0,2011
+683,5,NK,Spirit Air Lines,44505773.0,2011
+684,5,UA,United Air Lines Inc.,788648855.0,2011
+685,5,WN,Southwest Airlines Co.,481047303.0,2011
+686,6,AA,American Airlines Inc.,606567564.0,2011
+687,6,AS,Alaska Airlines Inc.,109109823.0,2011
+688,6,B6,JetBlue Airways,157260179.0,2011
+689,6,DL,Delta Air Lines Inc.,876541863.0,2011
+690,6,NK,Spirit Air Lines,44384813.0,2011
+691,6,UA,United Air Lines Inc.,804102435.0,2011
+692,6,WN,Southwest Airlines Co.,468011089.0,2011
+693,7,AA,American Airlines Inc.,628251208.0,2011
+694,7,AS,Alaska Airlines Inc.,118181937.0,2011
+695,7,B6,JetBlue Airways,175877509.0,2011
+696,7,DL,Delta Air Lines Inc.,907796355.0,2011
+697,7,NK,Spirit Air Lines,48894363.0,2011
+698,7,UA,United Air Lines Inc.,859889814.0,2011
+699,7,WN,Southwest Airlines Co.,489198438.0,2011
+700,8,AA,American Airlines Inc.,662343409.0,2011
+701,8,AS,Alaska Airlines Inc.,119947968.0,2011
+702,8,B6,JetBlue Airways,179456726.0,2011
+703,8,DL,Delta Air Lines Inc.,895892170.0,2011
+704,8,NK,Spirit Air Lines,49108900.0,2011
+705,8,UA,United Air Lines Inc.,876950965.0,2011
+706,8,WN,Southwest Airlines Co.,468986368.0,2011
+707,9,AA,American Airlines Inc.,604074436.0,2011
+708,9,AS,Alaska Airlines Inc.,105567240.0,2011
+709,9,B6,JetBlue Airways,145534014.0,2011
+710,9,DL,Delta Air Lines Inc.,773212002.0,2011
+711,9,NK,Spirit Air Lines,46982672.0,2011
+712,9,UA,United Air Lines Inc.,805554578.0,2011
+713,9,WN,Southwest Airlines Co.,436324202.0,2011
+714,10,AA,American Airlines Inc.,617588683.0,2011
+715,10,AS,Alaska Airlines Inc.,103299216.0,2011
+716,10,B6,JetBlue Airways,145918708.0,2011
+717,10,DL,Delta Air Lines Inc.,792986986.0,2011
+718,10,NK,Spirit Air Lines,43855040.0,2011
+719,10,UA,United Air Lines Inc.,805727280.0,2011
+720,10,WN,Southwest Airlines Co.,445566144.0,2011
+721,11,AA,American Airlines Inc.,569587553.0,2011
+722,11,AS,Alaska Airlines Inc.,103682480.0,2011
+723,11,B6,JetBlue Airways,147226860.0,2011
+724,11,DL,Delta Air Lines Inc.,739827001.0,2011
+725,11,NK,Spirit Air Lines,45765538.0,2011
+726,11,UA,United Air Lines Inc.,735758070.0,2011
+727,11,WN,Southwest Airlines Co.,418983683.0,2011
+728,12,AA,American Airlines Inc.,627736547.0,2011
+729,12,AS,Alaska Airlines Inc.,111597005.0,2011
+730,12,B6,JetBlue Airways,172684310.0,2011
+731,12,DL,Delta Air Lines Inc.,781123986.0,2011
+732,12,NK,Spirit Air Lines,50222533.0,2011
+733,12,UA,United Air Lines Inc.,774059146.0,2011
+734,12,WN,Southwest Airlines Co.,449341732.0,2011
+315,1,AA,American Airlines Inc.,317344085.0,2012
+316,1,AS,Alaska Airlines Inc.,47152571.0,2012
+317,1,B6,JetBlue Airways,70537499.0,2012
+318,1,DL,Delta Air Lines Inc.,354719002.0,2012
+319,1,NK,Spirit Air Lines,29253557.0,2012
+320,1,UA,United Air Lines Inc.,277726020.0,2012
+321,1,WN,Southwest Airlines Co.,277711435.0,2012
+322,2,AA,American Airlines Inc.,281410386.0,2012
+323,2,AS,Alaska Airlines Inc.,42171313.0,2012
+324,2,B6,JetBlue Airways,66340295.0,2012
+325,2,DL,Delta Air Lines Inc.,328807596.0,2012
+326,2,NK,Spirit Air Lines,25893176.0,2012
+327,2,UA,United Air Lines Inc.,242219657.0,2012
+328,2,WN,Southwest Airlines Co.,253104358.0,2012
+329,3,AA,American Airlines Inc.,340587052.0,2012
+330,3,AS,Alaska Airlines Inc.,50345955.0,2012
+331,3,B6,JetBlue Airways,77936475.0,2012
+332,3,DL,Delta Air Lines Inc.,388472770.0,2012
+333,3,NK,Spirit Air Lines,30833796.0,2012
+334,3,UA,United Air Lines Inc.,297964996.0,2012
+335,3,WN,Southwest Airlines Co.,283892879.0,2012
+336,4,AA,American Airlines Inc.,350930021.0,2012
+337,4,AS,Alaska Airlines Inc.,51784926.0,2012
+338,4,B6,JetBlue Airways,79388437.0,2012
+339,4,DL,Delta Air Lines Inc.,429540020.0,2012
+340,4,NK,Spirit Air Lines,32468178.0,2012
+341,4,UA,United Air Lines Inc.,308674504.0,2012
+342,4,WN,Southwest Airlines Co.,262687589.0,2012
+343,5,AA,American Airlines Inc.,407824957.0,2012
+344,5,AS,Alaska Airlines Inc.,57737641.0,2012
+345,5,B6,JetBlue Airways,91789656.0,2012
+346,5,DL,Delta Air Lines Inc.,452129965.0,2012
+347,5,NK,Spirit Air Lines,39436237.0,2012
+348,5,UA,United Air Lines Inc.,370830564.0,2012
+349,5,WN,Southwest Airlines Co.,285523831.0,2012
+350,6,AA,American Airlines Inc.,460306736.0,2012
+351,6,AS,Alaska Airlines Inc.,65645569.0,2012
+352,6,B6,JetBlue Airways,102954211.0,2012
+353,6,DL,Delta Air Lines Inc.,963444631.0,2012
+354,6,NK,Spirit Air Lines,41287248.0,2012
+355,6,UA,United Air Lines Inc.,423352591.0,2012
+356,6,WN,Southwest Airlines Co.,310700426.0,2012
+357,7,AA,American Airlines Inc.,477298830.0,2012
+358,7,AS,Alaska Airlines Inc.,66198034.0,2012
+359,7,B6,JetBlue Airways,105712879.0,2012
+360,7,DL,Delta Air Lines Inc.,493229453.0,2012
+361,7,NK,Spirit Air Lines,42442868.0,2012
+362,7,UA,United Air Lines Inc.,445707176.0,2012
+363,7,WN,Southwest Airlines Co.,319188062.0,2012
+364,8,AA,American Airlines Inc.,437594283.0,2012
+365,8,AS,Alaska Airlines Inc.,62376704.0,2012
+366,8,B6,JetBlue Airways,98482169.0,2012
+367,8,DL,Delta Air Lines Inc.,501635299.0,2012
+368,8,NK,Spirit Air Lines,40967959.0,2012
+369,8,UA,United Air Lines Inc.,413360687.0,2012
+370,8,WN,Southwest Airlines Co.,295793183.0,2012
+371,9,AA,American Airlines Inc.,399447717.0,2012
+372,9,AS,Alaska Airlines Inc.,55382260.0,2012
+373,9,B6,JetBlue Airways,88900518.0,2012
+374,9,DL,Delta Air Lines Inc.,404304319.0,2012
+375,9,NK,Spirit Air Lines,38433033.0,2012
+376,9,UA,United Air Lines Inc.,383255846.0,2012
+377,9,WN,Southwest Airlines Co.,283361784.0,2012
+378,10,AA,American Airlines Inc.,422850406.0,2012
+379,10,AS,Alaska Airlines Inc.,60371031.0,2012
+380,10,B6,JetBlue Airways,92460910.0,2012
+381,10,DL,Delta Air Lines Inc.,476736882.0,2012
+382,10,NK,Spirit Air Lines,41066618.0,2012
+383,10,UA,United Air Lines Inc.,409684092.0,2012
+384,10,WN,Southwest Airlines Co.,300044113.0,2012
+385,11,AA,American Airlines Inc.,391678109.0,2012
+386,11,AS,Alaska Airlines Inc.,61002508.0,2012
+387,11,B6,JetBlue Airways,92797157.0,2012
+388,11,DL,Delta Air Lines Inc.,385905388.0,2012
+389,11,NK,Spirit Air Lines,39655872.0,2012
+390,11,UA,United Air Lines Inc.,369816083.0,2012
+391,11,WN,Southwest Airlines Co.,298346362.0,2012
+392,12,AA,American Airlines Inc.,445275123.0,2012
+393,12,AS,Alaska Airlines Inc.,68085614.0,2012
+394,12,B6,JetBlue Airways,106084293.0,2012
+395,12,DL,Delta Air Lines Inc.,435331872.0,2012
+396,12,NK,Spirit Air Lines,45812193.0,2012
+397,12,UA,United Air Lines Inc.,415049145.0,2012
+398,12,WN,Southwest Airlines Co.,312741891.0,2012
+0,1,AA,American Airlines Inc.,635543959.0,2013
+1,1,AS,Alaska Airlines Inc.,108387159.0,2013
+2,1,B6,JetBlue Airways,150456389.0,2013
+3,1,DL,Delta Air Lines Inc.,725140403.0,2013
+4,1,NK,Spirit Air Lines,50724028.0,2013
+5,1,UA,United Air Lines Inc.,750409845.0,2013
+6,1,WN,Southwest Airlines Co.,400589830.0,2013
+7,2,AA,American Airlines Inc.,551540007.0,2013
+8,2,AS,Alaska Airlines Inc.,98284051.0,2013
+9,2,B6,JetBlue Airways,144052358.0,2013
+10,2,DL,Delta Air Lines Inc.,646807774.0,2013
+11,2,NK,Spirit Air Lines,45844843.0,2013
+12,2,UA,United Air Lines Inc.,684623544.0,2013
+13,2,WN,Southwest Airlines Co.,384425204.0,2013
+14,3,AA,American Airlines Inc.,633882032.0,2013
+15,3,AS,Alaska Airlines Inc.,111391459.0,2013
+16,3,B6,JetBlue Airways,169340947.0,2013
+17,3,DL,Delta Air Lines Inc.,819250282.0,2013
+18,3,NK,Spirit Air Lines,51902823.0,2013
+19,3,UA,United Air Lines Inc.,818899533.0,2013
+20,3,WN,Southwest Airlines Co.,476221011.0,2013
+21,4,AA,American Airlines Inc.,600458967.0,2013
+22,4,AS,Alaska Airlines Inc.,106722803.0,2013
+23,4,B6,JetBlue Airways,164151969.0,2013
+24,4,DL,Delta Air Lines Inc.,761034705.0,2013
+25,4,NK,Spirit Air Lines,49678483.0,2013
+26,4,UA,United Air Lines Inc.,764983067.0,2013
+27,4,WN,Southwest Airlines Co.,450033426.0,2013
+28,5,AA,American Airlines Inc.,611071738.0,2013
+29,5,AS,Alaska Airlines Inc.,112403044.0,2013
+30,5,B6,JetBlue Airways,165148439.0,2013
+31,5,DL,Delta Air Lines Inc.,812362254.0,2013
+32,5,NK,Spirit Air Lines,52570922.0,2013
+33,5,UA,United Air Lines Inc.,829488086.0,2013
+34,5,WN,Southwest Airlines Co.,457296262.0,2013
+35,6,AA,American Airlines Inc.,636985126.0,2013
+36,6,AS,Alaska Airlines Inc.,118792607.0,2013
+37,6,B6,JetBlue Airways,167956907.0,2013
+38,6,DL,Delta Air Lines Inc.,862304639.0,2013
+39,6,NK,Spirit Air Lines,52602684.0,2013
+40,6,UA,United Air Lines Inc.,846760249.0,2013
+41,6,WN,Southwest Airlines Co.,464335924.0,2013
+42,7,AA,American Airlines Inc.,660121278.0,2013
+43,7,AS,Alaska Airlines Inc.,123894303.0,2013
+44,7,B6,JetBlue Airways,183941715.0,2013
+45,7,DL,Delta Air Lines Inc.,899398564.0,2013
+46,7,NK,Spirit Air Lines,54171960.0,2013
+47,7,UA,United Air Lines Inc.,874045639.0,2013
+48,7,WN,Southwest Airlines Co.,485667604.0,2013
+49,8,AA,American Airlines Inc.,620134995.0,2013
+50,8,AS,Alaska Airlines Inc.,122425446.0,2013
+51,8,B6,JetBlue Airways,185661349.0,2013
+52,8,DL,Delta Air Lines Inc.,917927138.0,2013
+53,8,NK,Spirit Air Lines,67341863.0,2013
+54,8,UA,United Air Lines Inc.,845947954.0,2013
+55,8,WN,Southwest Airlines Co.,444702657.0,2013
+56,9,AA,American Airlines Inc.,559901268.0,2013
+57,9,AS,Alaska Airlines Inc.,104041662.0,2013
+58,9,B6,JetBlue Airways,148438064.0,2013
+59,9,DL,Delta Air Lines Inc.,788162073.0,2013
+60,9,NK,Spirit Air Lines,50063393.0,2013
+61,9,UA,United Air Lines Inc.,730907298.0,2013
+62,9,WN,Southwest Airlines Co.,404510280.0,2013
+63,10,AA,American Airlines Inc.,544022595.0,2013
+64,10,AS,Alaska Airlines Inc.,97605866.0,2013
+65,10,B6,JetBlue Airways,145652930.0,2013
+66,10,DL,Delta Air Lines Inc.,748749697.0,2013
+67,10,NK,Spirit Air Lines,47034106.0,2013
+68,10,UA,United Air Lines Inc.,716363425.0,2013
+69,10,WN,Southwest Airlines Co.,396034507.0,2013
+70,11,AA,American Airlines Inc.,482203233.0,2013
+71,11,AS,Alaska Airlines Inc.,93416522.0,2013
+72,11,B6,JetBlue Airways,142058759.0,2013
+73,11,DL,Delta Air Lines Inc.,684354539.0,2013
+74,11,NK,Spirit Air Lines,46836251.0,2013
+75,11,UA,United Air Lines Inc.,604871787.0,2013
+76,11,WN,Southwest Airlines Co.,367236988.0,2013
+77,12,AA,American Airlines Inc.,455909078.0,2013
+78,12,AS,Alaska Airlines Inc.,85764324.0,2013
+79,12,B6,JetBlue Airways,148063090.0,2013
+80,12,DL,Delta Air Lines Inc.,656222391.0,2013
+81,12,NK,Spirit Air Lines,44027428.0,2013
+82,12,UA,United Air Lines Inc.,574820597.0,2013
+83,12,WN,Southwest Airlines Co.,350892224.0,2013
+735,1,AA,American Airlines Inc.,351121741.0,2014
+736,1,AS,Alaska Airlines Inc.,67948243.0,2014
+737,1,B6,JetBlue Airways,110873045.0,2014
+738,1,DL,Delta Air Lines Inc.,644186514.0,2014
+739,1,NK,Spirit Air Lines,38303790.0,2014
+740,1,UA,United Air Lines Inc.,448829702.0,2014
+741,1,WN,Southwest Airlines Co.,279129033.0,2014
+742,2,AA,American Airlines Inc.,309871178.0,2014
+743,2,AS,Alaska Airlines Inc.,61030688.0,2014
+744,2,B6,JetBlue Airways,101212197.0,2014
+745,2,DL,Delta Air Lines Inc.,1032522756.0,2014
+746,2,NK,Spirit Air Lines,28831121.0,2014
+747,2,UA,United Air Lines Inc.,381679345.0,2014
+748,2,WN,Southwest Airlines Co.,248082083.0,2014
+749,3,AA,American Airlines Inc.,370033171.0,2014
+750,3,AS,Alaska Airlines Inc.,75381419.0,2014
+751,3,B6,JetBlue Airways,122733998.0,2014
+752,3,DL,Delta Air Lines Inc.,747258081.0,2014
+753,3,NK,Spirit Air Lines,45290362.0,2014
+754,3,UA,United Air Lines Inc.,494298972.0,2014
+755,3,WN,Southwest Airlines Co.,306618486.0,2014
+756,4,AA,American Airlines Inc.,352802765.0,2014
+757,4,AS,Alaska Airlines Inc.,70494201.0,2014
+758,4,B6,JetBlue Airways,115638233.0,2014
+759,4,DL,Delta Air Lines Inc.,688094075.0,2014
+760,4,NK,Spirit Air Lines,36494638.0,2014
+761,4,UA,United Air Lines Inc.,459085674.0,2014
+762,4,WN,Southwest Airlines Co.,294667617.0,2014
+763,5,AA,American Airlines Inc.,397241638.0,2014
+764,5,AS,Alaska Airlines Inc.,82267732.0,2014
+765,5,B6,JetBlue Airways,127249027.0,2014
+766,5,DL,Delta Air Lines Inc.,726936793.0,2014
+767,5,NK,Spirit Air Lines,47928866.0,2014
+768,5,UA,United Air Lines Inc.,541121316.0,2014
+769,5,WN,Southwest Airlines Co.,329765173.0,2014
+770,6,AA,American Airlines Inc.,399212661.0,2014
+771,6,AS,Alaska Airlines Inc.,81707294.0,2014
+772,6,B6,JetBlue Airways,128457811.0,2014
+773,6,DL,Delta Air Lines Inc.,762448424.0,2014
+774,6,NK,Spirit Air Lines,43090936.0,2014
+775,6,UA,United Air Lines Inc.,555256568.0,2014
+776,6,WN,Southwest Airlines Co.,333037370.0,2014
+777,7,AA,American Airlines Inc.,580459082.0,2014
+778,7,AS,Alaska Airlines Inc.,78346872.0,2014
+779,7,B6,JetBlue Airways,128507248.0,2014
+780,7,DL,Delta Air Lines Inc.,639035410.0,2014
+781,7,NK,Spirit Air Lines,42299858.0,2014
+782,7,UA,United Air Lines Inc.,539559041.0,2014
+783,7,WN,Southwest Airlines Co.,337866884.0,2014
+784,8,AA,American Airlines Inc.,518931892.0,2014
+785,8,AS,Alaska Airlines Inc.,69336410.0,2014
+786,8,B6,JetBlue Airways,117255997.0,2014
+787,8,DL,Delta Air Lines Inc.,603720416.0,2014
+788,8,NK,Spirit Air Lines,39375326.0,2014
+789,8,UA,United Air Lines Inc.,471661958.0,2014
+790,8,WN,Southwest Airlines Co.,290411867.0,2014
+791,9,AA,American Airlines Inc.,433374647.0,2014
+792,9,AS,Alaska Airlines Inc.,58647297.0,2014
+793,9,B6,JetBlue Airways,96471232.0,2014
+794,9,DL,Delta Air Lines Inc.,476767387.0,2014
+795,9,NK,Spirit Air Lines,34217928.0,2014
+796,9,UA,United Air Lines Inc.,390817490.0,2014
+797,9,WN,Southwest Airlines Co.,261198086.0,2014
+798,10,AA,American Airlines Inc.,441559226.0,2014
+799,10,AS,Alaska Airlines Inc.,61325553.0,2014
+800,10,B6,JetBlue Airways,99007701.0,2014
+801,10,DL,Delta Air Lines Inc.,570389917.0,2014
+802,10,NK,Spirit Air Lines,35805171.0,2014
+803,10,UA,United Air Lines Inc.,406517958.0,2014
+804,10,WN,Southwest Airlines Co.,258329294.0,2014
+805,11,AA,American Airlines Inc.,401898942.0,2014
+806,11,AS,Alaska Airlines Inc.,66193432.0,2014
+807,11,B6,JetBlue Airways,99040144.0,2014
+808,11,DL,Delta Air Lines Inc.,463784118.0,2014
+809,11,NK,Spirit Air Lines,35332577.0,2014
+810,11,UA,United Air Lines Inc.,348242016.0,2014
+811,11,WN,Southwest Airlines Co.,255917890.0,2014
+812,12,AA,American Airlines Inc.,398593043.0,2014
+813,12,AS,Alaska Airlines Inc.,57540426.0,2014
+814,12,B6,JetBlue Airways,101329622.0,2014
+815,12,DL,Delta Air Lines Inc.,489906720.0,2014
+816,12,NK,Spirit Air Lines,34077468.0,2014
+817,12,UA,United Air Lines Inc.,353805139.0,2014
+818,12,WN,Southwest Airlines Co.,239548811.0,2014
+567,1,AA,American Airlines Inc.,601818028.0,2015
+568,1,AS,Alaska Airlines Inc.,98752232.0,2015
+569,1,B6,JetBlue Airways,137009077.0,2015
+570,1,DL,Delta Air Lines Inc.,746745421.0,2015
+571,1,NK,Spirit Air Lines,32735968.0,2015
+572,1,UA,United Air Lines Inc.,798837142.0,2015
+573,1,WN,Southwest Airlines Co.,376708594.0,2015
+574,2,AA,American Airlines Inc.,590655504.0,2015
+575,2,AS,Alaska Airlines Inc.,97538101.0,2015
+576,2,B6,JetBlue Airways,136235990.0,2015
+577,2,DL,Delta Air Lines Inc.,719404667.0,2015
+578,2,NK,Spirit Air Lines,33612181.0,2015
+579,2,UA,United Air Lines Inc.,782532463.0,2015
+580,2,WN,Southwest Airlines Co.,379849454.0,2015
+581,3,AA,American Airlines Inc.,672613189.0,2015
+582,3,AS,Alaska Airlines Inc.,115412140.0,2015
+583,3,B6,JetBlue Airways,159675895.0,2015
+584,3,DL,Delta Air Lines Inc.,858238163.0,2015
+585,3,NK,Spirit Air Lines,42376540.0,2015
+586,3,UA,United Air Lines Inc.,933220245.0,2015
+587,3,WN,Southwest Airlines Co.,424925097.0,2015
+588,4,AA,American Airlines Inc.,644782762.0,2015
+589,4,AS,Alaska Airlines Inc.,110628335.0,2015
+590,4,B6,JetBlue Airways,157717721.0,2015
+591,4,DL,Delta Air Lines Inc.,852128242.0,2015
+592,4,NK,Spirit Air Lines,41254164.0,2015
+593,4,UA,United Air Lines Inc.,889559342.0,2015
+594,4,WN,Southwest Airlines Co.,518598656.0,2015
+595,5,AA,American Airlines Inc.,661863896.0,2015
+596,5,AS,Alaska Airlines Inc.,109544676.0,2015
+597,5,B6,JetBlue Airways,149110338.0,2015
+598,5,DL,Delta Air Lines Inc.,891445741.0,2015
+599,5,NK,Spirit Air Lines,43155922.0,2015
+600,5,UA,United Air Lines Inc.,914374867.0,2015
+601,5,WN,Southwest Airlines Co.,511678060.0,2015
+602,6,AA,American Airlines Inc.,596457479.0,2015
+603,6,AS,Alaska Airlines Inc.,103137377.0,2015
+604,6,B6,JetBlue Airways,143483378.0,2015
+605,6,DL,Delta Air Lines Inc.,946712416.0,2015
+606,6,NK,Spirit Air Lines,35823360.0,2015
+607,6,UA,United Air Lines Inc.,855369144.0,2015
+608,6,WN,Southwest Airlines Co.,489076997.0,2015
+609,7,AA,American Airlines Inc.,620273745.0,2015
+610,7,AS,Alaska Airlines Inc.,106650019.0,2015
+611,7,B6,JetBlue Airways,161014566.0,2015
+612,7,DL,Delta Air Lines Inc.,941029597.0,2015
+613,7,NK,Spirit Air Lines,39449460.0,2015
+614,7,UA,United Air Lines Inc.,863481608.0,2015
+615,7,WN,Southwest Airlines Co.,499958210.0,2015
+616,8,AA,American Airlines Inc.,627683350.0,2015
+617,8,AS,Alaska Airlines Inc.,114822298.0,2015
+618,8,B6,JetBlue Airways,171096786.0,2015
+619,8,DL,Delta Air Lines Inc.,921945979.0,2015
+620,8,NK,Spirit Air Lines,42256865.0,2015
+621,8,UA,United Air Lines Inc.,908788163.0,2015
+622,8,WN,Southwest Airlines Co.,498996797.0,2015
+623,9,AA,American Airlines Inc.,634533970.0,2015
+624,9,AS,Alaska Airlines Inc.,108108872.0,2015
+625,9,B6,JetBlue Airways,148578358.0,2015
+626,9,DL,Delta Air Lines Inc.,759404602.0,2015
+627,9,NK,Spirit Air Lines,40281033.0,2015
+628,9,UA,United Air Lines Inc.,868453153.0,2015
+629,9,WN,Southwest Airlines Co.,475851591.0,2015
+630,10,AA,American Airlines Inc.,635105509.0,2015
+631,10,AS,Alaska Airlines Inc.,109692886.0,2015
+632,10,B6,JetBlue Airways,140509161.0,2015
+633,10,DL,Delta Air Lines Inc.,864108715.0,2015
+634,10,NK,Spirit Air Lines,39796888.0,2015
+635,10,UA,United Air Lines Inc.,852963259.0,2015
+636,10,WN,Southwest Airlines Co.,513649576.0,2015
+637,11,AA,American Airlines Inc.,594147813.0,2015
+638,11,AS,Alaska Airlines Inc.,105407601.0,2015
+639,11,B6,JetBlue Airways,145231383.0,2015
+640,11,DL,Delta Air Lines Inc.,740087122.0,2015
+641,11,NK,Spirit Air Lines,38925361.0,2015
+642,11,UA,United Air Lines Inc.,757525169.0,2015
+643,11,WN,Southwest Airlines Co.,457439659.0,2015
+644,12,AA,American Airlines Inc.,628600531.0,2015
+645,12,AS,Alaska Airlines Inc.,108235816.0,2015
+646,12,B6,JetBlue Airways,156533830.0,2015
+647,12,DL,Delta Air Lines Inc.,782248025.0,2015
+648,12,NK,Spirit Air Lines,42066155.0,2015
+649,12,UA,United Air Lines Inc.,791441194.0,2015
+650,12,WN,Southwest Airlines Co.,480761155.0,2015
+147,1,AA,American Airlines Inc.,440888323.0,2016
+148,1,AS,Alaska Airlines Inc.,69840329.0,2016
+149,1,B6,JetBlue Airways,110137331.0,2016
+150,1,DL,Delta Air Lines Inc.,430704972.0,2016
+151,1,NK,Spirit Air Lines,46027342.0,2016
+152,1,UA,United Air Lines Inc.,412500789.0,2016
+153,1,WN,Southwest Airlines Co.,291146135.0,2016
+154,2,AA,American Airlines Inc.,405710427.0,2016
+155,2,AS,Alaska Airlines Inc.,64013203.0,2016
+156,2,B6,JetBlue Airways,99556083.0,2016
+157,2,DL,Delta Air Lines Inc.,418711893.0,2016
+158,2,NK,Spirit Air Lines,45333409.0,2016
+159,2,UA,United Air Lines Inc.,376303117.0,2016
+160,2,WN,Southwest Airlines Co.,269270544.0,2016
+161,3,AA,American Airlines Inc.,470399431.0,2016
+162,3,AS,Alaska Airlines Inc.,74943613.0,2016
+163,3,B6,JetBlue Airways,112926057.0,2016
+164,3,DL,Delta Air Lines Inc.,474280366.0,2016
+165,3,NK,Spirit Air Lines,48421086.0,2016
+166,3,UA,United Air Lines Inc.,441695391.0,2016
+167,3,WN,Southwest Airlines Co.,319793282.0,2016
+168,4,AA,American Airlines Inc.,463057869.0,2016
+169,4,AS,Alaska Airlines Inc.,73280450.0,2016
+170,4,B6,JetBlue Airways,111403505.0,2016
+171,4,DL,Delta Air Lines Inc.,467695114.0,2016
+172,4,NK,Spirit Air Lines,48152344.0,2016
+173,4,UA,United Air Lines Inc.,428188923.0,2016
+174,4,WN,Southwest Airlines Co.,320122768.0,2016
+175,5,AA,American Airlines Inc.,483472623.0,2016
+176,5,AS,Alaska Airlines Inc.,71267705.0,2016
+177,5,B6,JetBlue Airways,107305126.0,2016
+178,5,DL,Delta Air Lines Inc.,505968071.0,2016
+179,5,NK,Spirit Air Lines,46221323.0,2016
+180,5,UA,United Air Lines Inc.,448315754.0,2016
+181,5,WN,Southwest Airlines Co.,313718151.0,2016
+182,6,AA,American Airlines Inc.,467529063.0,2016
+183,6,AS,Alaska Airlines Inc.,71112095.0,2016
+184,6,B6,JetBlue Airways,106336890.0,2016
+185,6,DL,Delta Air Lines Inc.,526504440.0,2016
+186,6,NK,Spirit Air Lines,47920280.0,2016
+187,6,UA,United Air Lines Inc.,452298657.0,2016
+188,6,WN,Southwest Airlines Co.,308989857.0,2016
+189,7,AA,American Airlines Inc.,492481518.0,2016
+190,7,AS,Alaska Airlines Inc.,74880696.0,2016
+191,7,B6,JetBlue Airways,115031818.0,2016
+192,7,DL,Delta Air Lines Inc.,558943709.0,2016
+193,7,NK,Spirit Air Lines,50680220.0,2016
+194,7,UA,United Air Lines Inc.,470835673.0,2016
+195,7,WN,Southwest Airlines Co.,320098115.0,2016
+196,8,AA,American Airlines Inc.,519928131.0,2016
+197,8,AS,Alaska Airlines Inc.,79457576.0,2016
+198,8,B6,JetBlue Airways,123839332.0,2016
+199,8,DL,Delta Air Lines Inc.,535785231.0,2016
+200,8,NK,Spirit Air Lines,56709989.0,2016
+201,8,UA,United Air Lines Inc.,493460968.0,2016
+202,8,WN,Southwest Airlines Co.,327136102.0,2016
+203,9,AA,American Airlines Inc.,474298088.0,2016
+204,9,AS,Alaska Airlines Inc.,76698940.0,2016
+205,9,B6,JetBlue Airways,108032141.0,2016
+206,9,DL,Delta Air Lines Inc.,498229067.0,2016
+207,9,NK,Spirit Air Lines,50909978.0,2016
+208,9,UA,United Air Lines Inc.,478835917.0,2016
+209,9,WN,Southwest Airlines Co.,303063218.0,2016
+210,10,AA,American Airlines Inc.,523911775.0,2016
+211,10,AS,Alaska Airlines Inc.,78038953.0,2016
+212,10,B6,JetBlue Airways,117338300.0,2016
+213,10,DL,Delta Air Lines Inc.,552229834.0,2016
+214,10,NK,Spirit Air Lines,55850185.0,2016
+215,10,UA,United Air Lines Inc.,499141199.0,2016
+216,10,WN,Southwest Airlines Co.,321385705.0,2016
+217,11,AA,American Airlines Inc.,479414257.0,2016
+218,11,AS,Alaska Airlines Inc.,81797606.0,2016
+219,11,B6,JetBlue Airways,117915059.0,2016
+220,11,DL,Delta Air Lines Inc.,495375994.0,2016
+221,11,NK,Spirit Air Lines,57269753.0,2016
+222,11,UA,United Air Lines Inc.,472662190.0,2016
+223,11,WN,Southwest Airlines Co.,328019614.0,2016
+224,12,AA,American Airlines Inc.,551494299.0,2016
+225,12,AS,Alaska Airlines Inc.,88948501.0,2016
+226,12,B6,JetBlue Airways,132928875.0,2016
+227,12,DL,Delta Air Lines Inc.,527198403.0,2016
+228,12,NK,Spirit Air Lines,62085290.0,2016
+229,12,UA,United Air Lines Inc.,515408590.0,2016
+230,12,WN,Southwest Airlines Co.,329997258.0,2016
+483,1,AA,American Airlines Inc.,524270778.0,2017
+484,1,AS,Alaska Airlines Inc.,84522749.0,2017
+485,1,B6,JetBlue Airways,103529879.0,2017
+486,1,DL,Delta Air Lines Inc.,662845978.0,2017
+487,1,NK,Spirit Air Lines,24012303.0,2017
+488,1,UA,United Air Lines Inc.,395338401.0,2017
+489,1,WN,Southwest Airlines Co.,311677042.0,2017
+490,2,AA,American Airlines Inc.,477088026.0,2017
+491,2,AS,Alaska Airlines Inc.,82777577.0,2017
+492,2,B6,JetBlue Airways,108490251.0,2017
+493,2,DL,Delta Air Lines Inc.,646794364.0,2017
+494,2,NK,Spirit Air Lines,23177223.0,2017
+495,2,UA,United Air Lines Inc.,371932693.0,2017
+496,2,WN,Southwest Airlines Co.,286356751.0,2017
+497,3,AA,American Airlines Inc.,588494643.0,2017
+498,3,AS,Alaska Airlines Inc.,104669547.0,2017
+499,3,B6,JetBlue Airways,140770492.0,2017
+500,3,DL,Delta Air Lines Inc.,783920862.0,2017
+501,3,NK,Spirit Air Lines,23177223.0,2017
+502,3,UA,United Air Lines Inc.,491631679.0,2017
+503,3,WN,Southwest Airlines Co.,389176197.0,2017
+504,4,AA,American Airlines Inc.,618293408.0,2017
+505,4,AS,Alaska Airlines Inc.,108259411.0,2017
+506,4,B6,JetBlue Airways,145205547.0,2017
+507,4,DL,Delta Air Lines Inc.,824085334.0,2017
+508,4,NK,Spirit Air Lines,35539017.0,2017
+509,4,UA,United Air Lines Inc.,513769446.0,2017
+510,4,WN,Southwest Airlines Co.,405815527.0,2017
+511,5,AA,American Airlines Inc.,652047050.0,2017
+512,5,AS,Alaska Airlines Inc.,105857073.0,2017
+513,5,B6,JetBlue Airways,145786857.0,2017
+514,5,DL,Delta Air Lines Inc.,867781525.0,2017
+515,5,NK,Spirit Air Lines,36752768.0,2017
+516,5,UA,United Air Lines Inc.,536360942.0,2017
+517,5,WN,Southwest Airlines Co.,422911657.0,2017
+518,6,AA,American Airlines Inc.,625154053.0,2017
+519,6,AS,Alaska Airlines Inc.,107024884.0,2017
+520,6,B6,JetBlue Airways,148554712.0,2017
+521,6,DL,Delta Air Lines Inc.,882006522.0,2017
+522,6,NK,Spirit Air Lines,35030227.0,2017
+523,6,UA,United Air Lines Inc.,509464489.0,2017
+524,6,WN,Southwest Airlines Co.,429599000.0,2017
+525,7,AA,American Airlines Inc.,665613138.0,2017
+526,7,AS,Alaska Airlines Inc.,109057318.0,2017
+527,7,B6,JetBlue Airways,162978403.0,2017
+528,7,DL,Delta Air Lines Inc.,936893344.0,2017
+529,7,NK,Spirit Air Lines,37689419.0,2017
+530,7,UA,United Air Lines Inc.,556607355.0,2017
+531,7,WN,Southwest Airlines Co.,418921347.0,2017
+532,8,AA,American Airlines Inc.,647574448.0,2017
+533,8,AS,Alaska Airlines Inc.,106337809.0,2017
+534,8,B6,JetBlue Airways,154581955.0,2017
+535,8,DL,Delta Air Lines Inc.,894197720.0,2017
+536,8,NK,Spirit Air Lines,35784710.0,2017
+537,8,UA,United Air Lines Inc.,545299352.0,2017
+538,8,WN,Southwest Airlines Co.,416264926.0,2017
+539,9,AA,American Airlines Inc.,633595479.0,2017
+540,9,AS,Alaska Airlines Inc.,96124507.0,2017
+541,9,B6,JetBlue Airways,136201374.0,2017
+542,9,DL,Delta Air Lines Inc.,770036027.0,2017
+543,9,NK,Spirit Air Lines,31510314.0,2017
+544,9,UA,United Air Lines Inc.,488503300.0,2017
+545,9,WN,Southwest Airlines Co.,406142066.0,2017
+546,10,AA,American Airlines Inc.,560526521.0,2017
+547,10,AS,Alaska Airlines Inc.,95757518.0,2017
+548,10,B6,JetBlue Airways,132518706.0,2017
+549,10,DL,Delta Air Lines Inc.,762368423.0,2017
+550,10,NK,Spirit Air Lines,27652332.0,2017
+551,10,UA,United Air Lines Inc.,483834078.0,2017
+552,10,WN,Southwest Airlines Co.,393631966.0,2017
+553,11,AA,American Airlines Inc.,561721373.0,2017
+554,11,AS,Alaska Airlines Inc.,99131348.0,2017
+555,11,B6,JetBlue Airways,138263994.0,2017
+556,11,DL,Delta Air Lines Inc.,655726062.0,2017
+557,11,NK,Spirit Air Lines,32731906.0,2017
+558,11,UA,United Air Lines Inc.,433384260.0,2017
+559,11,WN,Southwest Airlines Co.,380697765.0,2017
+560,12,AA,American Airlines Inc.,598698428.0,2017
+561,12,AS,Alaska Airlines Inc.,99384809.0,2017
+562,12,B6,JetBlue Airways,146723914.0,2017
+563,12,DL,Delta Air Lines Inc.,703536896.0,2017
+564,12,NK,Spirit Air Lines,34564990.0,2017
+565,12,UA,United Air Lines Inc.,461457113.0,2017
+566,12,WN,Southwest Airlines Co.,401977009.0,2017
+84,1,AA,American Airlines Inc.,527930266.0,2018
+85,1,AS,Alaska Airlines Inc.,117295194.0,2018
+86,1,B6,JetBlue Airways,137193906.0,2018
+87,1,DL,Delta Air Lines Inc.,562392438.0,2018
+88,1,NK,Spirit Air Lines,71242248.0,2018
+89,1,UA,United Air Lines Inc.,500710455.0,2018
+90,1,WN,Southwest Airlines Co.,315731576.0,2018
+91,2,AA,American Airlines Inc.,506989847.0,2018
+92,2,AS,Alaska Airlines Inc.,110417119.0,2018
+93,2,B6,JetBlue Airways,136980956.0,2018
+94,2,DL,Delta Air Lines Inc.,512424644.0,2018
+95,2,NK,Spirit Air Lines,71407508.0,2018
+96,2,UA,United Air Lines Inc.,472939819.0,2018
+97,2,WN,Southwest Airlines Co.,293559548.0,2018
+98,3,AA,American Airlines Inc.,595793975.0,2018
+99,3,AS,Alaska Airlines Inc.,134629100.0,2018
+100,3,B6,JetBlue Airways,162930484.0,2018
+101,3,DL,Delta Air Lines Inc.,609257127.0,2018
+102,3,NK,Spirit Air Lines,86986328.0,2018
+103,3,UA,United Air Lines Inc.,597728943.0,2018
+104,3,WN,Southwest Airlines Co.,359210576.0,2018
+105,4,AA,American Airlines Inc.,589969418.0,2018
+106,4,AS,Alaska Airlines Inc.,137208447.0,2018
+107,4,B6,JetBlue Airways,162565520.0,2018
+108,4,DL,Delta Air Lines Inc.,598624785.0,2018
+109,4,NK,Spirit Air Lines,85020397.0,2018
+110,4,UA,United Air Lines Inc.,591706212.0,2018
+111,4,WN,Southwest Airlines Co.,348343487.0,2018
+112,5,AA,American Airlines Inc.,660653095.0,2018
+113,5,AS,Alaska Airlines Inc.,151473132.0,2018
+114,5,B6,JetBlue Airways,167296966.0,2018
+115,5,DL,Delta Air Lines Inc.,654812923.0,2018
+116,5,NK,Spirit Air Lines,94757645.0,2018
+117,5,UA,United Air Lines Inc.,653718728.0,2018
+118,5,WN,Southwest Airlines Co.,378163574.0,2018
+119,6,AA,American Airlines Inc.,636743732.0,2018
+120,6,AS,Alaska Airlines Inc.,137655825.0,2018
+121,6,B6,JetBlue Airways,154413079.0,2018
+122,6,DL,Delta Air Lines Inc.,712864450.0,2018
+123,6,NK,Spirit Air Lines,85227413.0,2018
+124,6,UA,United Air Lines Inc.,628169636.0,2018
+125,6,WN,Southwest Airlines Co.,357969700.0,2018
+126,7,AA,American Airlines Inc.,658527259.0,2018
+127,7,AS,Alaska Airlines Inc.,146809415.0,2018
+128,7,B6,JetBlue Airways,167225559.0,2018
+129,7,DL,Delta Air Lines Inc.,688490352.0,2018
+130,7,NK,Spirit Air Lines,91576334.0,2018
+131,7,UA,United Air Lines Inc.,645067356.0,2018
+132,7,WN,Southwest Airlines Co.,368451237.0,2018
+133,8,AA,American Airlines Inc.,646382308.0,2018
+134,8,AS,Alaska Airlines Inc.,139348885.0,2018
+135,8,B6,JetBlue Airways,163627281.0,2018
+136,8,DL,Delta Air Lines Inc.,669235386.0,2018
+137,8,NK,Spirit Air Lines,88843977.0,2018
+138,8,UA,United Air Lines Inc.,626433174.0,2018
+139,8,WN,Southwest Airlines Co.,346816200.0,2018
+140,9,AA,American Airlines Inc.,582240436.0,2018
+141,9,AS,Alaska Airlines Inc.,125986059.0,2018
+142,9,B6,JetBlue Airways,140202692.0,2018
+143,9,DL,Delta Air Lines Inc.,602353484.0,2018
+144,9,NK,Spirit Air Lines,73426677.0,2018
+145,9,UA,United Air Lines Inc.,561519578.0,2018
+146,9,WN,Southwest Airlines Co.,319609214.0,2018
+231,1,AA,American Airlines Inc.,560634926.0,2019
+232,1,AS,Alaska Airlines Inc.,124660897.0,2019
+233,1,B6,JetBlue Airways,142022199.0,2019
+234,1,DL,Delta Air Lines Inc.,546581010.0,2019
+235,1,NK,Spirit Air Lines,69562682.0,2019
+236,1,UA,United Air Lines Inc.,507943829.0,2019
+237,1,WN,Southwest Airlines Co.,319693866.0,2019
+238,2,AA,American Airlines Inc.,521982273.0,2019
+239,2,AS,Alaska Airlines Inc.,113227536.0,2019
+240,2,B6,JetBlue Airways,132609918.0,2019
+241,2,DL,Delta Air Lines Inc.,499657381.0,2019
+242,2,NK,Spirit Air Lines,64842232.0,2019
+243,2,UA,United Air Lines Inc.,475312985.0,2019
+244,2,WN,Southwest Airlines Co.,295824553.0,2019
+245,3,AA,American Airlines Inc.,583760151.0,2019
+246,3,AS,Alaska Airlines Inc.,129431305.0,2019
+247,3,B6,JetBlue Airways,142221682.0,2019
+248,3,DL,Delta Air Lines Inc.,554695520.0,2019
+249,3,NK,Spirit Air Lines,70240724.0,2019
+250,3,UA,United Air Lines Inc.,550417287.0,2019
+251,3,WN,Southwest Airlines Co.,351767819.0,2019
+252,4,AA,American Airlines Inc.,598772599.0,2019
+253,4,AS,Alaska Airlines Inc.,136203107.0,2019
+254,4,B6,JetBlue Airways,153254256.0,2019
+255,4,DL,Delta Air Lines Inc.,622668832.0,2019
+256,4,NK,Spirit Air Lines,74289874.0,2019
+257,4,UA,United Air Lines Inc.,569304950.0,2019
+258,4,WN,Southwest Airlines Co.,354131759.0,2019
+259,5,AA,American Airlines Inc.,688107672.0,2019
+260,5,AS,Alaska Airlines Inc.,150860233.0,2019
+261,5,B6,JetBlue Airways,169993298.0,2019
+262,5,DL,Delta Air Lines Inc.,651070915.0,2019
+263,5,NK,Spirit Air Lines,84672314.0,2019
+264,5,UA,United Air Lines Inc.,647499154.0,2019
+265,5,WN,Southwest Airlines Co.,385763181.0,2019
+266,6,AA,American Airlines Inc.,715573331.0,2019
+267,6,AS,Alaska Airlines Inc.,152302542.0,2019
+268,6,B6,JetBlue Airways,167870388.0,2019
+269,6,DL,Delta Air Lines Inc.,705862646.0,2019
+270,6,NK,Spirit Air Lines,87217867.0,2019
+271,6,UA,United Air Lines Inc.,686849022.0,2019
+272,6,WN,Southwest Airlines Co.,403070327.0,2019
+273,7,AA,American Airlines Inc.,735726546.0,2019
+274,7,AS,Alaska Airlines Inc.,156998714.0,2019
+275,7,B6,JetBlue Airways,176866669.0,2019
+276,7,DL,Delta Air Lines Inc.,776004538.0,2019
+277,7,NK,Spirit Air Lines,91321528.0,2019
+278,7,UA,United Air Lines Inc.,709820683.0,2019
+279,7,WN,Southwest Airlines Co.,409421954.0,2019
+280,8,AA,American Airlines Inc.,724232724.0,2019
+281,8,AS,Alaska Airlines Inc.,154113329.0,2019
+282,8,B6,JetBlue Airways,176609955.0,2019
+283,8,DL,Delta Air Lines Inc.,752331133.0,2019
+284,8,NK,Spirit Air Lines,91480768.0,2019
+285,8,UA,United Air Lines Inc.,694423722.0,2019
+286,8,WN,Southwest Airlines Co.,389813643.0,2019
+287,9,AA,American Airlines Inc.,666494249.0,2019
+288,9,AS,Alaska Airlines Inc.,139386319.0,2019
+289,9,B6,JetBlue Airways,161329062.0,2019
+290,9,DL,Delta Air Lines Inc.,656019382.0,2019
+291,9,NK,Spirit Air Lines,76016010.0,2019
+292,9,UA,United Air Lines Inc.,634502047.0,2019
+293,9,WN,Southwest Airlines Co.,352368431.0,2019
+294,10,AA,American Airlines Inc.,709266054.0,2019
+295,10,AS,Alaska Airlines Inc.,151392652.0,2019
+296,10,B6,JetBlue Airways,169632524.0,2019
+297,10,DL,Delta Air Lines Inc.,715587544.0,2019
+298,10,NK,Spirit Air Lines,79410404.0,2019
+299,10,UA,United Air Lines Inc.,686746812.0,2019
+300,10,WN,Southwest Airlines Co.,390252215.0,2019
+301,11,AA,American Airlines Inc.,598494164.0,2019
+302,11,AS,Alaska Airlines Inc.,141954875.0,2019
+303,11,B6,JetBlue Airways,158355073.0,2019
+304,11,DL,Delta Air Lines Inc.,648932844.0,2019
+305,11,NK,Spirit Air Lines,78408771.0,2019
+306,11,UA,United Air Lines Inc.,617440815.0,2019
+307,11,WN,Southwest Airlines Co.,392274611.0,2019
+308,12,AA,American Airlines Inc.,561707796.0,2019
+309,12,AS,Alaska Airlines Inc.,127340061.0,2019
+310,12,B6,JetBlue Airways,148470547.0,2019
+311,12,DL,Delta Air Lines Inc.,675360855.0,2019
+312,12,NK,Spirit Air Lines,71860839.0,2019
+313,12,UA,United Air Lines Inc.,569473976.0,2019
+314,12,WN,Southwest Airlines Co.,357550908.0,2019
