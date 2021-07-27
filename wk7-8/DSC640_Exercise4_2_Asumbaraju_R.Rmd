@@ -1,0 +1,95 @@
+---
+title: "DSC640_Exercise4_2_Asumbaraju_R"
+author: "SumbarajuAditya"
+date: "7/25/2021"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+  '': default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+output <- knitr::opts_knit$get("rmarkdown.pandoc.to") # html / latex / docx
+```
+
+
+# Exercise4.2: 1 heat map, 1 spatial chart and 1 contour chart using R
+# Import libraries
+
+```{r}
+library("ggplot2")
+library("ggmap")
+library("plotly")
+library("orca")
+
+
+```
+```{r}
+library(rmarkdown)
+.libPaths()
+
+```
+```{r}
+.First <- function(){
+  .libPaths(c("Z:/R/win-library/4.0", "C:/Program Files/R/R-4.0.3/library"))
+}
+```
+## Data Import
+
+```{r}
+nba_df <- read.csv('C:/BU/DSC640/wk7-8/data/ppg2008.csv')
+head(nba_df)
+
+costco_df <- read.csv('C:/BU/DSC640/wk7-8/data/costcos-geocoded.csv')
+head(costco_df)
+Sys.getenv("RSTUDIO_PANDOC")
+
+```
+
+# Heatmap
+
+```{r fig.height = 5, fig.width = 10}
+set.seed(123)                                                     # Set seed for reproducibility
+mat =as.matrix(nba_df[, -1])
+                    
+heatmap(mat, Colv = NA, Rowv = NA, scale='column',xlab="Variables", ylab="Values", main="NBA Statistics")
+
+# reference: https://jcoliver.github.io/learn-r/006-heatmaps.html
+
+```
+# spatial chart
+```{r}
+
+qmplot(Longitude, Latitude, data = costco_df, maptype = "toner-lite", color = I("blue"))
+
+# reference: https://cran.r-project.org/web/packages/ggmap/ggmap.pdf
+
+```
+# contour chart
+
+```{r, results="asis"}
+library(png)
+
+fname = "C:/BU/DSC640/wk7-8/Contour.png"
+
+x=nba_df$PTS
+y=nba_df$MIN
+z=matrix(c(nba_df$G), nrow = 5, ncol = 5)
+df <- data.frame(x=x,y=y,z=z)
+p <- plotly::plot_ly(data = nba_df, x=~x,y=~y, z=~z, type = "contour", colorscale='Jet', autocontour = T, 
+                     contours = list( start = 0,end = 8,size = 2,showlabels = TRUE,filename=fname, image='png', image_filename="Contour.png"))
+#p
+
+
+
+library(EBImage)
+
+img = readImage("C:/BU/DSC640/wk7-8/Contour.png")
+display(img, method = "raster")
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
