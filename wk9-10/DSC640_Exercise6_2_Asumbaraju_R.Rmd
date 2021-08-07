@@ -1,0 +1,91 @@
+---
+title: "DSC640_Exercise6_2_Asumbaraju_R"
+author: "SumbarajuAditya"
+date: "8/6/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r }
+library(ggplot2)
+library(reshape2)
+library("dplyr") 
+
+```
+
+
+
+
+
+```{r}
+crime_df <- read.csv("C:/BU/DSC640/wk9-10/ex6-2/crimeratesbystate-formatted.csv")
+crime_df <- crime_df[!(crime_df$state=='United States'),]
+print(is.data.frame(crime_df))
+```
+
+# Histogram
+```{r}
+
+hist(crime_df$motor_vehicle_theft,
+     main="Aggravated Assault Counts",
+     xlab="Aggravated Assault",
+     ylab="Counts",
+     col="green",
+     freq=TRUE)
+
+```
+# Box Plot
+
+```{r fig2, fig.width = 8, fig.asp = 0.50}
+crime_df1 <- subset(crime_df, select = -c(state))
+data_melt <- melt(crime_df1)
+p <- ggplot(data_melt, aes(factor(variable), value)) 
+p + geom_boxplot(outlier.colour="red", outlier.shape=16,
+             outlier.size=2, notch=FALSE) +
+        ggtitle("Box Plot:  Crime data") +
+        xlab("Crimes") + 
+        ylab("Crime Counts")
+
+```
+# bullet chart
+```{r fig3, fig.width = 15, fig.asp = 0.50}
+cr_df <- crime_df[,c("state","robbery")]
+cr_df$mean <- 100
+cr_df$target <- 120
+
+p <- ggplot(cr_df, aes(robbery, state) )
+p <- ggplot(cr_df, aes(state, robbery) )
+p <- p + geom_col(fill="red", width=0.5) + 
+  geom_col(fill="gray", aes(state, mean), width=0.2) + 
+  geom_point(aes(state, target), colour="blue") + 
+  geom_errorbar(aes(y = target,x = state, ymin = target,ymax
+                           = target), width = .45) + coord_flip()+ 
+        ggtitle("Robbery stats w.r.t State") +
+        xlab("State") + 
+        ylab("value")
+
+p
+```
+# an additional charts of  choice -- Pie Chart
+
+```{r}
+mycols <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CDC686FF", "#CD534CFF")
+cr_df=filter(cr_df, robbery > 178)
+
+cr_df <- cr_df %>% arrange(desc(state)) %>% mutate(lab.ypos = cumsum(robbery) - 0.5*robbery)
+cr_df
+
+ggplot(cr_df, aes(x = "", y = robbery, fill = state)) +
+  geom_bar(width = 1, stat = "identity", color = "white") +
+  coord_polar("y", start = 0)+
+  geom_text(aes(y = lab.ypos, label = robbery), color = "white")+
+  scale_fill_manual(values = mycols) +
+  theme_void()
+
+```
+
+
